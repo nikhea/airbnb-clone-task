@@ -104,7 +104,9 @@ export const categories = [
 
 const Categories = ({ onCategoryChange }: any) => {
   const selectedCategory = useCategoryStore((state) => state.selectedCategory);
-
+  const handleCategoryClick = (category: string) => {
+    onCategoryChange(category);
+  };
   return (
     <Container>
       <div className="sticky flex flex-row items-center justify-between gap-x-5">
