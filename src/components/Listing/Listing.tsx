@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import ListingCard from "./ListingCard";
 import Container from "../UI/Container";
