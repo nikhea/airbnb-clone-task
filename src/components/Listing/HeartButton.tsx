@@ -1,5 +1,6 @@
 "use client";
 import { useListingStore } from "@/hooks/useListingStore";
+import { useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
 interface HeartButtonProps {
@@ -8,11 +9,11 @@ interface HeartButtonProps {
 }
 
 const HeartButton: React.FC<HeartButtonProps> = ({ itemID, isFavorite }) => {
-  const { toggleFavorite } = useListingStore();
-
+  // const { toggleFavorite } = useListingStore();
+  const [hasFavorite, setIsFavorite] = useState(false);
   return (
     <div
-      onClick={toggleFavorite(itemID)}
+      // onClick={toggleFavorite(itemID)}
       className="relative transition cursor-pointer hover:opacity-80"
     >
       <AiOutlineHeart
@@ -21,7 +22,7 @@ const HeartButton: React.FC<HeartButtonProps> = ({ itemID, isFavorite }) => {
       />
       <AiFillHeart
         size={24}
-        className={isFavorite ? "fill-rose-500" : "fill-neutral-500/70"}
+        className={hasFavorite ? "fill-rose-500" : "fill-neutral-500/70"}
       />
     </div>
   );

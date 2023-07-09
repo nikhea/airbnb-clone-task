@@ -2,7 +2,6 @@
 import React from "react";
 import ListingCard from "./ListingCard";
 import Container from "../UI/Container";
-import { useListingStore } from "@/hooks/useListingStore";
 import { ListingItem } from "@/types/ListingItem";
 import { ListingData } from "@/data/listingData";
 
