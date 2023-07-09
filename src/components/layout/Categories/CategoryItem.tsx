@@ -36,7 +36,7 @@ const CategoryItem: React.FC<CategoryItemProps> = ({
       `}
     >
       <Icon size={26} />
-      <div className="text-sm font-medium">{label}</div>
+      <div className="text-sm font-medium capitalize">{label}</div>
     </div>
   );
 };

@@ -6,7 +6,6 @@ export const useListingFilter = (
   category: string | undefined
 ): ListingItem[] => {
   const [filteredData, setFilteredData] = useState<ListingItem[]>([]);
-
   useEffect(() => {
     if (!category || category === "rooms") {
       setFilteredData(ListingData);
