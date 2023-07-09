@@ -2,14 +2,14 @@ export const ListingData = [
   {
     images: [],
     name: "5 bedroom duplex in ajah",
-    host: "imonikhea",
+    hostName: "imonikhea",
     location: {
       state: "lagos",
       country: "nigeria",
     },
     avalibility: "10-15",
     month: "oct",
-    cost: "$200",
-    avarageRating: "4.5",
+    price: 200,
+    avarageRating: 4.5,
   },
 ];
