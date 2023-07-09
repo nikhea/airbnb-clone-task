@@ -11,5 +11,6 @@ export type ListingItem = {
   month: string;
   price: number;
   avarageRating: number;
+  category: string;
   isFavorite: boolean;
 };

@@ -1,10 +1,9 @@
-import Listing from "@/components/Listing/Listing";
-import Image from "next/image";
+import Content from "@/components/Content/Content";
 
 export default function Home() {
   return (
     <main>
-      <Listing />
+      <Content />
     </main>
   );
 }

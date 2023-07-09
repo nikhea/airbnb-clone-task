@@ -1,6 +1,4 @@
 "use client";
-
-import { usePathname, useSearchParams } from "next/navigation";
 import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
 import {
   GiBarn,
@@ -19,8 +17,14 @@ import { MdOutlineVilla } from "react-icons/md";
 import Container from "@/components/UI/Container";
 import CategoryItem from "./CategoryItem";
 import FilterIcon from "./FIliterIcon";
+import { useCategoryStore } from "@/hooks/useCategoryStore";
 
 export const categories = [
+  {
+    label: "rooms",
+    icon: TbBeach,
+    description: "This property is close to the beach!",
+  },
   {
     label: "Beach",
     icon: TbBeach,
@@ -98,15 +102,8 @@ export const categories = [
   },
 ];
 
-const Categories = () => {
-  const params = useSearchParams();
-  const category = params?.get("category");
-  const pathname = usePathname();
-  const isMainPage = pathname === "/";
-
-  if (!isMainPage) {
-    return null;
-  }
+const Categories = ({ onCategoryChange }: any) => {
+  const selectedCategory = useCategoryStore((state) => state.selectedCategory);
 
   return (
     <Container>
@@ -117,7 +114,8 @@ const Categories = () => {
               key={item.label}
               label={item.label}
               icon={item.icon}
-              selected={category === item.label}
+              selected={selectedCategory === item.label}
+              onClick={() => handleCategoryClick(item.label)}
             />
           ))}
         </div>

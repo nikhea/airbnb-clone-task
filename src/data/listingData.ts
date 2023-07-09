@@ -15,6 +15,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
+    category: "beach",
   },
   {
     id: 2,
@@ -30,5 +31,6 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
+    category: "windmills",
   },
 ];

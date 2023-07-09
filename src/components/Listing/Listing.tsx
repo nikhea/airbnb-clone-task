@@ -5,9 +5,8 @@ import Container from "../UI/Container";
 import { ListingItem } from "@/types/ListingItem";
 import { ListingData } from "@/data/listingData";
 
-const Listing = () => {
-  // const { listingData } = useListingStore();
-  const displayListing = ListingData.map(
+const Listing = ({ listingData }: any) => {
+  const displayListing = listingData.map(
     (listing: ListingItem, index: number) => (
       <ListingCard data={listing} key={index} />
     )

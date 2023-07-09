@@ -8,15 +8,18 @@ interface CategoryItemProps {
   icon: IconType;
   label: string;
   selected?: boolean;
+  onClick: any;
 }
 
 const CategoryItem: React.FC<CategoryItemProps> = ({
   icon: Icon,
   label,
   selected,
+  onClick,
 }) => {
   return (
     <div
+      onClick={() => onClick(label)}
       className={`
         flex 
         flex-col 
