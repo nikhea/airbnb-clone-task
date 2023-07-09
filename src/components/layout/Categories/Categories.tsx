@@ -110,7 +110,7 @@ const Categories = () => {
 
   return (
     <Container>
-      <div className="flex flex-row items-center gap-x-3">
+      <div className="flex flex-row items-center gap-x-5">
         <div className="flex flex-row items-center justify-between pt-4 overflow-x-auto ">
           {categories.map((item) => (
             <CategoryItem
@@ -120,8 +120,8 @@ const Categories = () => {
               selected={category === item.label}
             />
           ))}
-        </div>{" "}
-        <div className="flex flex-row items-center border-[1px] w-full  md:w-auto p-1 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
+        </div>
+        <div className="flex flex-row items-center border-[1px] w-full  md:w-auto p-2 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
           <FilterIcon /> filiters
         </div>
       </div>

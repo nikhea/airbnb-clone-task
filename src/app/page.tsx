@@ -1,5 +1,10 @@
+import Listing from "@/components/Listing/Listing";
 import Image from "next/image";
 
 export default function Home() {
-  return <main>hello</main>;
+  return (
+    <main>
+      <Listing />
+    </main>
+  );
 }
