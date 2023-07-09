@@ -18,7 +18,7 @@ const UserMenu = () => {
           <TbWorld size={20} />
         </div>
 
-        <div onClick={toggleOpen} className={style.__toggleContainer}>
+        <div onClick={toggleOpen} className={style.toggleContainer}>
           <AiOutlineMenu />
           <div className="hidden md:block">
             <Avatar src="" />
@@ -26,12 +26,12 @@ const UserMenu = () => {
         </div>
       </div>
       {isOpen && (
-        <div className={style.__isOpen}>
-          <div className={style.__isOpenContainer}>
+        <div className={style.toggleContainer__isOpen}>
+          <div className={style.toggleContainer__isOpenContainer}>
             {
               <>
-                <div className={style.__isOpenItem}>Login</div>
-                <div className={style.__isOpenItem}>Sign up</div>
+                <div className={style.toggleContainer__isOpenItem}>Login</div>
+                <div className={style.toggleContainer__isOpenItem}>Sign up</div>
               </>
             }
           </div>
