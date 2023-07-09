@@ -4,9 +4,10 @@ import Image from "next/image";
 
 import HeartButton from "./HeartButton";
 import { AiFillStar } from "react-icons/ai";
+import { ListingItem } from "@/types/ListingItem";
 
 interface ListingCardProps {
-  data: any;
+  data: ListingItem;
 }
 
 const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
@@ -23,7 +24,7 @@ const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
             alt="Listing"
           />
           <div className="absolute top-3 right-3">
-            <HeartButton />
+            <HeartButton itemID={data.id} isFavorite={data.isFavorite} />
           </div>
         </div>
         <div className="flex items-center justify-between">
