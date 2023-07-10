@@ -6,10 +6,12 @@ import Categories from "../layout/Categories/Categories";
 import Listing from "@/components/Listing/Listing";
 import MapIcon from "@/components/Map/MapIcon";
 import MapComponent from "../Map/MapComponent";
+import { useContentStore } from "@/hooks/useContentStore";
 const DynamicMap = dynamic(() => import("@/components/Map/MapComponent"), {
   ssr: false,
 });
 const Content = () => {
+  const { isListingVisible } = useContentStore();
   const selectedCategory = useCategoryStore((state) => state.selectedCategory);
   const setSelectedCategory = useCategoryStore(
     (state) => state.setSelectedCategory
@@ -23,8 +25,11 @@ const Content = () => {
   return (
     <div>
       <Categories onCategoryChange={handleCategoryChange} />
-      <Listing listingData={filteredListingData} />
-      <DynamicMap />
+      {isListingVisible ? (
+        <Listing listingData={filteredListingData} />
+      ) : (
+        <DynamicMap />
+      )}
       <MapIcon />
     </div>
   );
