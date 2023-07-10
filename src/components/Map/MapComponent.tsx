@@ -19,7 +19,7 @@ const MapComponent = () => {
           //   bottom: "0",
         }}
         center={[51.505, -0.09]}
-        zoom={5}
+        zoom={3}
         scrollWheelZoom={false}
       >
         <TileLayer
