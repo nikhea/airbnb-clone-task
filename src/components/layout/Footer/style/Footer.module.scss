@@ -1,9 +1,9 @@
 .footer {
-  @apply fixed bottom-0 left-0 right-0 z-10 w-full bg-white shadow-sm;
+  @apply fixed bottom-0 left-0 right-0 z-10 w-full bg-white shadow-sm mt-20;
   &__Container {
     @apply py-4 border-t-[1px];
   }
   &__Items {
-    @apply flex flex-col lg:flex-row flex-row items-center justify-between;
+    @apply flex flex-col-reverse lg:flex-row  items-center justify-between;
   }
 }

@@ -10,12 +10,10 @@ const Footer = () => {
       <div className={style.footer__Container}>
         <Container>
           <div className={style.footer__Items}>
-            <div className="flex flex-col lg:flex-row items-center gap-x-2 text-[#222]">
-              <h2 className="capitalize">@2023 Airbnb, inc</h2>
+            <div className="flex flex-col  lg:flex-row items-center lg:gap-x-2 text-[#222]">
+              <h2 className="capitalize">@2023 Airbnb, inc.</h2>
               <ul className="flex flex-row items-center text-sm font-normal capitalize gap-x-2 ">
-                <li className="flex flex-row items-center">
-                  <span className="mr-1">.</span> terms
-                </li>
+                <li className="flex flex-row items-center">terms</li>
                 <li className="flex flex-row items-center">
                   <span className="mr-1">.</span> sitmap
                 </li>
