@@ -36,7 +36,7 @@ const Footer = () => {
                 </li>
                 <li>$ USD</li>
                 <li>. privacy</li>
-                <li>
+                <li className="flex flex-row items-center">
                   {" "}
                   support & resources{" "}
                   <MdKeyboardArrowUp size={20} className="ml-2" />
