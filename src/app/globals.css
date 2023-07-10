@@ -6,3 +6,6 @@
   position: absolute;
   top: 40%;
 }
+.swiper-pagination-bullet-active {
+  @apply !bg-white;
+}

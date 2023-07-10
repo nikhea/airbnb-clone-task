@@ -48,7 +48,7 @@ export const ListingImage: FC<ListingImage> = ({ images, data }) => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      slidesPerView={1}
+      slidesPerView={3}
     >
       <div className=" group">
         <div> {displayImages}</div>
