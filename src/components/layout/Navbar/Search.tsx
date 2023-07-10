@@ -21,7 +21,7 @@ const Search = () => {
           <BiSearch size={18} />
           <div className="flex flex-col ">
             <div>Anywhere</div>
-            <div className="flex items-center text-sm text-[##717171]">
+            <div className="flex items-center text-[.8rem]  text-[#717171]">
               <div>Any week</div>
               <div>
                 <span className="mr-1">.</span>Add guests{" "}
