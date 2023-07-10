@@ -11,7 +11,7 @@ const PersonAvatarIcon = () => {
       style={{
         display: "block",
         height: "100%",
-        width: "20%",
+        width: "100%",
         fill: "#717171",
       }}
     >
