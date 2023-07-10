@@ -18,11 +18,12 @@ import Container from "@/components/UI/Container";
 import CategoryItem from "./CategoryItem";
 import FilterIcon from "../../UI/ICons/FIliterIcon";
 import { useCategoryStore } from "@/hooks/useCategoryStore";
+import { BiBed } from "react-icons/bi";
 
 export const categories = [
   {
     label: "rooms",
-    icon: TbBeach,
+    icon: BiBed,
     description: "This property is close to the beach!",
   },
   {
