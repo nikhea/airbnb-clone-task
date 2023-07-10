@@ -1,3 +1,4 @@
+"use client";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 
 import React from "react";
