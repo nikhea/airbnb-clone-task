@@ -19,6 +19,7 @@ import CategoryItem from "./CategoryItem";
 import FilterIcon from "../../UI/ICons/FIliterIcon";
 import { useCategoryStore } from "@/hooks/useCategoryStore";
 import { BiBed } from "react-icons/bi";
+import { useScrollBorder } from "@/hooks/useScrollBorder";
 
 export const categories = [
   {
@@ -104,12 +105,17 @@ export const categories = [
 ];
 
 const Categories = ({ onCategoryChange }: any) => {
+  const showBorder = useScrollBorder();
   const selectedCategory = useCategoryStore((state) => state.selectedCategory);
   const handleCategoryClick = (category: string) => {
     onCategoryChange(category);
   };
   return (
-    <div className="sticky top-[94px] bottom-0 left-0 right-0 z-50 bg-white ">
+    <div
+      className={`sticky top-[94px] bottom-0 left-0 right-0 z-50 bg-white ${
+        showBorder ? " shadow-sm" : ""
+      }`}
+    >
       <Container>
         <div className="flex flex-row items-center justify-between gap-x-5">
           <div className="flex flex-row items-center justify-between pt-4 overflow-x-auto ">
