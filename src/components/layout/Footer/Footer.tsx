@@ -11,7 +11,7 @@ const Footer = () => {
         <Container>
           <div className={style.footer__Items}>
             <div className="flex flex-col  lg:flex-row lg:items-center gap-y-1 lg:gap-y-0 lg:gap-x-2 text-[#222]">
-              <h2 className="capitalize">&copy 2023 Airbnb, inc.</h2>
+              <h2 className="capitalize">&copy; 2023 Airbnb, inc.</h2>
               <ul className="flex flex-row items-center text-sm font-normal capitalize gap-x-2 ">
                 <li className="flex flex-row items-center">terms</li>
                 <li className="flex flex-row items-center">
