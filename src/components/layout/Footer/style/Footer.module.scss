@@ -1,5 +1,5 @@
 .footer {
-  @apply sticky bottom-0 left-0 right-0 z-10 w-full bg-white shadow-sm mt-20;
+  @apply sticky bottom-0 left-0 right-0 z-[9999] w-full bg-white shadow-sm mt-20;
   &__Container {
     @apply py-4 border-t-[1px];
   }
