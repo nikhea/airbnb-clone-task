@@ -4,6 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { TbWorld } from "react-icons/tb";
 import Avatar from "./Avatar";
 import style from "./style/menu.module.scss";
+import PersonAvatarIcon from "@/components/UI/ICons/PersonAvatarIcon";
 
 const UserMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,8 @@ const UserMenu = () => {
         <div onClick={toggleOpen} className={style.toggleContainer}>
           <AiOutlineMenu />
           <div className="hidden md:block">
-            <Avatar src="" />
+            {/* <Avatar src="" /> */}
+            <PersonAvatarIcon />
           </div>
         </div>
       </div>
