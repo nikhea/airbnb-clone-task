@@ -19,9 +19,9 @@ const Search = () => {
       <div className={style.search__SmContainer}>
         <div className="flex items-center gap-x-3">
           <BiSearch size={18} />
-          <div className="flex flex-col items-center ">
+          <div className="flex flex-col ">
             <div>Anywhere</div>
-            <div className="flex items-center font-thin text-[##717171]">
+            <div className="flex items-center text-sm text-[##717171]">
               <div>Any week</div>
               <div>
                 <span className="mr-1">.</span>Add guests{" "}
@@ -30,7 +30,7 @@ const Search = () => {
           </div>
         </div>
         <div>
-          <div className="border-[1px] w-full  md:w-auto py-2 rounded-full  shadow-sm">
+          <div className="border-[1px] w-full    shadow-sm p-2  rounded-full">
             <FilterIcon />
           </div>
         </div>

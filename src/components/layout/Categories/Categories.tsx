@@ -108,24 +108,26 @@ const Categories = ({ onCategoryChange }: any) => {
     onCategoryChange(category);
   };
   return (
-    <Container>
-      <div className="sticky flex flex-row items-center justify-between gap-x-5">
-        <div className="flex flex-row items-center justify-between pt-4 overflow-x-auto ">
-          {categories.map((item) => (
-            <CategoryItem
-              key={item.label}
-              label={item.label}
-              icon={item.icon}
-              selected={selectedCategory === item.label}
-              onClick={() => handleCategoryClick(item.label)}
-            />
-          ))}
+    <div className="sticky top-0 bottom-0 left-0 right-0 z-50 bg-white ">
+      <Container>
+        <div className="flex flex-row items-center justify-between gap-x-5">
+          <div className="flex flex-row items-center justify-between pt-4 overflow-x-auto ">
+            {categories.map((item) => (
+              <CategoryItem
+                key={item.label}
+                label={item.label}
+                icon={item.icon}
+                selected={selectedCategory === item.label}
+                onClick={() => handleCategoryClick(item.label)}
+              />
+            ))}
+          </div>
+          <div className="flex flex-row items-center border-[1px] w-full  md:w-auto p-2 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
+            <FilterIcon /> Filiters
+          </div>
         </div>
-        <div className="flex flex-row items-center border-[1px] w-full  md:w-auto p-2 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
-          <FilterIcon /> Filiters
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 
