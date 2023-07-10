@@ -1,5 +1,5 @@
 .navbar {
-  @apply fixed h-[94px] top-0 left-0  z-10 w-full bg-white shadow-sm;
+  @apply fixed h-[94px] top-0 left-0  z-[9999] w-full bg-white shadow-sm;
   &__Container {
     @apply py-4 border-b-[1px];
   }
