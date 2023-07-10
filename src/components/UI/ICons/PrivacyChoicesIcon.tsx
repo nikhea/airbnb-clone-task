@@ -7,7 +7,7 @@ const PrivacyChoicesIcon = () => {
       height="12"
       fill="none"
       style={{
-        marginRight: "5px",
+        marginLeft: "5px",
       }}
     >
       <rect x="0.5" y="0.5" width="25" height="11" rx="5.5" fill="#fff"></rect>

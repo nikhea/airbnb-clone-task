@@ -35,7 +35,7 @@ const Footer = () => {
                   <TbWorld size={20} className="mr-2" /> english (US)
                 </li>
                 <li>$ USD</li>
-                <li className="flex flex-row items-center">
+                <li className="flex-row items-center hidden lg:flex">
                   {" "}
                   support & resources{" "}
                   <MdKeyboardArrowUp size={20} className="ml-2" />
