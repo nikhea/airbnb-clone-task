@@ -23,7 +23,7 @@ const Footer = () => {
                   <span className="mr-1">.</span> privacy
                 </li>
                 <li className="flex flex-row items-center">
-                  <span className="mr-1">.</span> your privacy choices{" "}
+                  <span className="mr-1">.</span> your privacy choices
                   <PrivacyChoicesIcon />
                 </li>
                 <li>

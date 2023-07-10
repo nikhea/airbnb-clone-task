@@ -2,7 +2,14 @@ import React from "react";
 
 const PrivacyChoicesIcon = () => {
   return (
-    <svg width="26" height="12" fill="none">
+    <svg
+      width="26"
+      height="12"
+      fill="none"
+      style={{
+        marginRight: "5px",
+      }}
+    >
       <rect x="0.5" y="0.5" width="25" height="11" rx="5.5" fill="#fff"></rect>
       <path d="M14 1h7a5 5 0 010 10H11l3-10z" fill="#06F"></path>
       <path
