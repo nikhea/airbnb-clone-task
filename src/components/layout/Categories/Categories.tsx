@@ -112,7 +112,7 @@ const Categories = ({ onCategoryChange }: any) => {
   };
   return (
     <div
-      className={`sticky top-[94px] bottom-0 left-0 right-0 z-[9999] bg-white ${
+      className={`sticky top-[94px] bottom-0 left-0 right-0 z-[999] bg-white ${
         showBorder ? " shadow-sm border-b-[1px] transition-shadow " : ""
       }`}
     >
