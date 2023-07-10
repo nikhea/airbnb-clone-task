@@ -123,7 +123,14 @@ const Categories = ({ onCategoryChange }: any) => {
             ))}
           </div>
           <div className="flex flex-row items-center border-[1px] w-full  md:w-auto p-2 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
-            <FilterIcon /> Filiters
+            <FilterIcon />
+            <span
+              style={{
+                marginRight: "5px",
+              }}
+            >
+              Filiters
+            </span>
           </div>
         </div>
       </Container>

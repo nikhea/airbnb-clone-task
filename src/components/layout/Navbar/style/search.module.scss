@@ -4,7 +4,7 @@
     @apply hidden lg:flex flex-row items-center justify-between;
   }
   &__SmContainer {
-    @apply flex lg:hidden flex-row items-center justify-between p-x-[10px];
+    @apply flex lg:hidden flex-row items-center justify-between px-[10px];
   }
   &__text {
     @apply px-6 text-sm font-semibold;

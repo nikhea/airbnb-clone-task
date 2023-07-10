@@ -1,14 +1,6 @@
 const FilterIcon = () => {
   return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 18 18"
-      fill="none"
-      style={{
-        marginRight: "5px",
-      }}
-    >
+    <svg width="20" height="20" viewBox="0 0 18 18" fill="none">
       <path
         fillRule="evenodd"
         clipRule="evenodd"
