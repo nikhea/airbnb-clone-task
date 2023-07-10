@@ -32,7 +32,8 @@ type ListingImage = {
 export const ListingImage: FC<ListingImage> = ({ images, data }) => {
   const displayImages = images.map((image, index) => (
     <SwiperSlide key={index}>
-      <div className="relative w-full overflow-hidden h-[300px]  rounded-xl">
+      {/* overflow-hidden */}
+      <div className="relative w-full  h-[300px]  rounded-xl">
         <Image
           fill
           className="object-cover w-full h-full transition group-hover:scale-110"
@@ -48,7 +49,7 @@ export const ListingImage: FC<ListingImage> = ({ images, data }) => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      slidesPerView={3}
+      slidesPerView={1}
     >
       <div className=" group">
         <div> {displayImages}</div>
