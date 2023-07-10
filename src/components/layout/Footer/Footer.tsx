@@ -30,7 +30,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <ul className="flex flex-row items-center capitalize gap-x-2 font-semibold ">
+              <ul className="flex flex-row items-center capitalize gap-x-2 font-semibold text-sm ">
                 <li className="flex flex-row items-center">
                   <TbWorld size={20} className="mr-2" /> english (US)
                 </li>
