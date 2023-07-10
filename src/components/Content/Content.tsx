@@ -4,6 +4,7 @@ import { useListingFilter } from "@/hooks/useFiliterList";
 import Categories from "../layout/Categories/Categories";
 import Listing from "../Listing/Listing";
 import MapIcon from "../Map/MapIcon";
+import MapComponent from "../Map/MapComponent";
 
 const Content = () => {
   const selectedCategory = useCategoryStore((state) => state.selectedCategory);
@@ -20,6 +21,7 @@ const Content = () => {
     <div>
       <Categories onCategoryChange={handleCategoryChange} />
       <Listing listingData={filteredListingData} />
+      <MapComponent />
       <MapIcon />
     </div>
   );
