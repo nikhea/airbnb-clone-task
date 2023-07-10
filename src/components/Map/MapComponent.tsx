@@ -1,5 +1,6 @@
 "use client";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
 import "leaflet/dist/leaflet.css";
 
 const MapComponent = () => {
