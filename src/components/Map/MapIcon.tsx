@@ -1,3 +1,4 @@
+"use client";
 import { useContentStore } from "@/hooks/useContentStore";
 import React from "react";
 import { BiListUl } from "react-icons/bi";
@@ -19,7 +20,7 @@ const MapIcon = () => {
         {isListingVisible ? (
           <FaMap className="ml-2" />
         ) : (
-          <BiListUl className="ml-2" />
+          <BiListUl size={20} className="ml-2" />
         )}
       </div>
     </div>

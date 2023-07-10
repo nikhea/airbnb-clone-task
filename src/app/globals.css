@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .leaflet-control-container {
-  /* position: absolute;
-  top: 40%; */
+  position: absolute;
+  top: 40%;
 }
