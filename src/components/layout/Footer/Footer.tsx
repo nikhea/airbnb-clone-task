@@ -2,6 +2,7 @@ import React from "react";
 import style from "./style/Footer.module.scss";
 import Container from "@/components/UI/Container";
 import { TbWorld } from "react-icons/tb";
+import { MdKeyboardArrowUp } from "react-icons/md";
 const Footer = () => {
   return (
     <div className={style.footer}>
@@ -35,7 +36,11 @@ const Footer = () => {
                 </li>
                 <li>$ USD</li>
                 <li>. privacy</li>
-                <li>support & resources</li>
+                <li>
+                  {" "}
+                  support & resources{" "}
+                  <MdKeyboardArrowUp size={20} className="ml-2" />
+                </li>
               </ul>
             </div>
           </div>
