@@ -109,7 +109,7 @@ const Categories = ({ onCategoryChange }: any) => {
     onCategoryChange(category);
   };
   return (
-    <div className="sticky top-0 bottom-0 left-0 right-0 z-50 bg-white ">
+    <div className="sticky top-[94px] bottom-0 left-0 right-0 z-50 bg-white ">
       <Container>
         <div className="flex flex-row items-center justify-between gap-x-5">
           <div className="flex flex-row items-center justify-between pt-4 overflow-x-auto ">
