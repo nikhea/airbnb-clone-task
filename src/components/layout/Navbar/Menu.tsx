@@ -21,7 +21,7 @@ const UserMenu = () => {
 
         <div onClick={toggleOpen} className={style.toggleContainer}>
           <AiOutlineMenu />
-          <div className="hidden md:block w-[30%]">
+          <div className="hidden md:block w-[30px]">
             {/* <Avatar src="" /> */}
             <PersonAvatarIcon />
           </div>
