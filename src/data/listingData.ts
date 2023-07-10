@@ -47,7 +47,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "modern",
   },
   {
     id: 2,
@@ -63,7 +63,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "countryside",
   },
   {
     id: 2,
@@ -79,7 +79,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "pools",
   },
   {
     id: 2,
@@ -95,7 +95,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "islands",
   },
   {
     id: 2,
@@ -111,7 +111,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "lake",
   },
   {
     id: 2,
@@ -127,7 +127,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "skiing",
   },
   {
     id: 2,
@@ -143,7 +143,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "castles",
   },
   {
     id: 2,
@@ -159,7 +159,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "caves",
   },
   {
     id: 2,
@@ -175,7 +175,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "camping",
   },
   {
     id: 2,
@@ -191,7 +191,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "arctic",
   },
   {
     id: 2,
@@ -207,7 +207,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "desert",
   },
   {
     id: 2,
@@ -223,7 +223,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "barns",
   },
   {
     id: 2,
@@ -239,7 +239,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     avarageRating: 4.5,
     isFavorite: false,
-    category: "windmills",
+    category: "lux",
   },
   {
     id: 2,
