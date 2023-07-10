@@ -12,24 +12,24 @@ const Footer = () => {
               <h2 className="capitalize">@2023 Airbnb, inc</h2>
               <ul className="flex flex-row items-center capitalize gap-x-2 font-normal text-sm text-[#222]">
                 <li className="flex flex-row items-center">
-                  <span>.</span> terms
+                  <span className="mr-1">.</span> terms
                 </li>
                 <li className="flex flex-row items-center">
-                  <span>.</span> sitmap
+                  <span className="mr-1">.</span> sitmap
                 </li>
                 <li className="flex flex-row items-center">
-                  <span>.</span> privacy
+                  <span className="mr-1">.</span> privacy
                 </li>
                 <li className="flex flex-row items-center">
-                  <span>.</span> your privacy choices
+                  <span className="mr-1">.</span> your privacy choices
                 </li>
                 <li>
-                  <span>.</span> destinations
+                  <span className="mr-1">.</span> destinations
                 </li>
               </ul>
             </div>
             <div>
-              <ul className="flex flex-row items-center capitalize gap-x-2 font-extrabold ">
+              <ul className="flex flex-row items-center capitalize gap-x-2 font-semibold ">
                 <li className="flex flex-row items-center">
                   <TbWorld size={20} className="mr-2" /> english (US)
                 </li>
