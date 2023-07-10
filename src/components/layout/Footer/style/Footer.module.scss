@@ -1,0 +1,9 @@
+.footer {
+  @apply fixed bottom-0 left-0 right-0 z-10 w-full bg-white shadow-sm;
+  &__Container {
+    @apply py-4 border-t-[1px];
+  }
+  &__Items {
+    @apply flex flex-row items-center justify-between;
+  }
+}
