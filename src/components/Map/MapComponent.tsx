@@ -4,25 +4,35 @@ import "leaflet/dist/leaflet.css";
 
 const MapComponent = () => {
   return (
-    <MapContainer
+    <div
       style={{
-        height: "100vh",
-        position: "fixed",
+        position: "relative",
       }}
-      center={[51.505, -0.09]}
-      zoom={13}
-      scrollWheelZoom={false}
     >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>
+      <MapContainer
+        style={{
+          height: "100vh",
+          position: "fixed",
+          top: "0",
+          left: "0",
+          right: "0",
+          bottom: "0",
+        }}
+        center={[51.505, -0.09]}
+        zoom={13}
+        scrollWheelZoom={false}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={[51.505, -0.09]}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+      </MapContainer>
+    </div>
   );
 };
 
