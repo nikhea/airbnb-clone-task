@@ -7,6 +7,7 @@ const MapComponent = () => {
     <MapContainer
       style={{
         height: "100vh",
+        position: "fixed",
       }}
       center={[51.505, -0.09]}
       zoom={13}
