@@ -1,5 +1,5 @@
 .menu {
-  @apply relative;
+  @apply relative hidden lg:flex;
   &__container {
     @apply flex flex-row items-center gap-1;
   }
