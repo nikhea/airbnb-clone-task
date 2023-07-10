@@ -3,15 +3,16 @@ import style from "./style/Footer.module.scss";
 import Container from "@/components/UI/Container";
 import { TbWorld } from "react-icons/tb";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import PrivacyChoicesIcon from "@/components/UI/ICons/PrivacyChoicesIcon";
 const Footer = () => {
   return (
     <div className={style.footer}>
       <div className={style.footer__Container}>
         <Container>
           <div className={style.footer__Items}>
-            <div className="flex flex-row items-center gap-x-2">
+            <div className="flex flex-row items-center gap-x-2 text-[#222]">
               <h2 className="capitalize">@2023 Airbnb, inc</h2>
-              <ul className="flex flex-row items-center capitalize gap-x-2 font-normal text-sm text-[#222]">
+              <ul className="flex flex-row items-center text-sm font-normal capitalize gap-x-2 ">
                 <li className="flex flex-row items-center">
                   <span className="mr-1">.</span> terms
                 </li>
@@ -22,7 +23,8 @@ const Footer = () => {
                   <span className="mr-1">.</span> privacy
                 </li>
                 <li className="flex flex-row items-center">
-                  <span className="mr-1">.</span> your privacy choices
+                  <span className="mr-1">.</span> your privacy choices{" "}
+                  <PrivacyChoicesIcon />
                 </li>
                 <li>
                   <span className="mr-1">.</span> destinations
@@ -30,12 +32,11 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <ul className="flex flex-row items-center capitalize gap-x-2 font-semibold text-sm ">
+              <ul className="flex flex-row items-center text-sm font-semibold capitalize gap-x-2 ">
                 <li className="flex flex-row items-center">
                   <TbWorld size={20} className="mr-2" /> english (US)
                 </li>
                 <li>$ USD</li>
-                <li>. privacy</li>
                 <li className="flex flex-row items-center">
                   {" "}
                   support & resources{" "}

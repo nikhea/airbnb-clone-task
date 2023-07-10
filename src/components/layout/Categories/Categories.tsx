@@ -16,7 +16,7 @@ import { IoDiamond } from "react-icons/io5";
 import { MdOutlineVilla } from "react-icons/md";
 import Container from "@/components/UI/Container";
 import CategoryItem from "./CategoryItem";
-import FilterIcon from "./FIliterIcon";
+import FilterIcon from "../../UI/ICons/FIliterIcon";
 import { useCategoryStore } from "@/hooks/useCategoryStore";
 
 export const categories = [
@@ -122,7 +122,7 @@ const Categories = ({ onCategoryChange }: any) => {
           ))}
         </div>
         <div className="flex flex-row items-center border-[1px] w-full  md:w-auto p-2 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
-          <FilterIcon /> filiters
+          <FilterIcon /> Filiters
         </div>
       </div>
     </Container>

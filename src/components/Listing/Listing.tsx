@@ -13,7 +13,7 @@ const Listing = ({ listingData }: any) => {
   );
   return (
     <Container>
-      <div className="grid grid-cols-1 gap-3 my-3 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-3 my-3 mb-5 md:grid-cols-2 lg:grid-cols-4">
         {displayListing}
       </div>
     </Container>
