@@ -1,6 +1,6 @@
 import { ListingItem } from "@/types/ListingItem";
 import HomeImage from "../../public/images/air.webp";
-
+import { Image1, Image2 } from "@/components/UI/Images";
 export const ListingData: ListingItem[] = [
   {
     id: 1,
@@ -20,7 +20,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 2,
-    image: HomeImage,
+    image: Image1,
     name: "Luxury apartment in the city center",
     hostName: "johndoe",
     location: {
@@ -36,7 +36,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 3,
-    image: HomeImage,
+    image: Image2,
     name: "Cozy cottage in the countryside",
     hostName: "janedoe",
     location: {
