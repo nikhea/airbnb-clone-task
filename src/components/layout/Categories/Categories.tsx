@@ -20,6 +20,7 @@ import FilterIcon from "../../UI/ICons/FIliterIcon";
 import { useCategoryStore } from "@/hooks/useCategoryStore";
 import { BiBed } from "react-icons/bi";
 import { useScrollBorder } from "@/hooks/useScrollBorder";
+import style from "./style/Categories.module.scss";
 
 export const categories = [
   {
@@ -112,13 +113,13 @@ const Categories = ({ onCategoryChange }: any) => {
   };
   return (
     <div
-      className={`sticky top-[94px] bottom-0 left-0 right-0 z-[999] bg-white ${
+      className={`${style.categories} ${
         showBorder ? " border-b-[1px] transition-shadow " : ""
       }`}
     >
       <Container>
-        <div className="flex flex-row items-center justify-between gap-x-5">
-          <div className="flex flex-row items-center justify-between pt-4 overflow-x-auto ">
+        <div className={style.categories__Items}>
+          <div className={style.categories__ListItem}>
             {categories.map((item) => (
               <CategoryItem
                 key={item.label}
@@ -129,11 +130,9 @@ const Categories = ({ onCategoryChange }: any) => {
               />
             ))}
           </div>
-          <div className="flex flex-row items-center border-[1px] w-fit p-2 rounded-lg  shadow-sm hover:shadow-md transition cursor-pointer">
+          <div className={style.categories__IconContainer}>
             <FilterIcon />
-            <span className="pl-2 font-semibold text-[12px] leading-[16px]">
-              Filiters
-            </span>
+            <span>Filiters</span>
           </div>
         </div>
       </Container>
