@@ -17,20 +17,20 @@ const Search = () => {
         </div>
       </div>
       <div className={style.search__SmContainer}>
-        <div className="flex items-center gap-x-3">
+        <div className={style.search__SmContainerTextItem}>
           <BiSearch size={18} />
-          <div className="flex flex-col ">
+          <div className={style.search__SmContainerTextCol}>
             <div>Anywhere</div>
-            <div className="flex items-center text-[.8rem]  text-[#717171]">
+            <div className={style.search__SmContainerTextColSub}>
               <div>Any week</div>
               <div>
-                <span className="mr-1">.</span>Add guests{" "}
+                <span className="mr-1">.</span>Add guests
               </div>
             </div>
           </div>
         </div>
         <div>
-          <div className="border-[1px] w-full    shadow-sm p-2  rounded-full">
+          <div className={style.__Icon}>
             <FilterIcon />
           </div>
         </div>

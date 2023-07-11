@@ -1,0 +1,16 @@
+.listing {
+  @apply grid grid-cols-1 gap-3 mt-[8em] m-5 md:grid-cols-2 lg:grid-cols-4;
+}
+
+.listingCard {
+  @apply col-span-1 cursor-pointer group;
+  &__Item {
+    @apply flex flex-col w-full gap-2;
+  }
+  &__ImageContainer {
+    @apply relative w-full overflow-hidden h-[300px]  rounded-xl;
+    img {
+      @apply object-cover w-full h-full transition group-hover:scale-110;
+    }
+  }
+}

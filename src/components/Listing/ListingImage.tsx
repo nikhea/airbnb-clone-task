@@ -32,7 +32,6 @@ type ListingImage = {
 export const ListingImage: FC<ListingImage> = ({ images, data }) => {
   const displayImages = images.map((image, index) => (
     <SwiperSlide key={index}>
-      {/* overflow-hidden */}
       <div className="relative w-full  h-[300px]  rounded-xl">
         <Image
           fill
