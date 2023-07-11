@@ -15,30 +15,30 @@ const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
         {/* aspect-square */}
         <div className={style.listingCard__ImageContainer}>
           <Image fill src={data.image} alt="Listing" />
-          <div className="absolute top-3 right-3">
+          <div>
             <HeartButton itemID={data.id} isFavorite={data.isFavorite} />
           </div>
         </div>
-        <div className="my-1 text-sm font-semibold capitalize">{data.name}</div>
-        <div className="flex items-center justify-between">
-          <div className="text-lg font-semibold capitalize">
+        <div className={style.listingCard__name}>{data.name}</div>
+        <div className={style.listingCard__StateCountry}>
+          <div>
             {data?.location.state}, {data.location.country}
           </div>
-          <div className="flex items-center justify-between">
+          <div className={style.listingCard__rating}>
             <AiFillStar size={18} className="mr-2" /> {data?.averageRating}
           </div>
         </div>
-        <div className="font-light text-neutral-500">
-          Hosted by <span className="capitalize">{data?.hostName}</span>
+        <div className={style.listingCard__hostName}>
+          Hosted by <span>{data?.hostName}</span>
         </div>
-        <div className="font-light text-neutral-500">
-          <span className="capitalize">{data?.month} </span>{" "}
+        <div className={style.listingCard__monthContainer}>
+          <span>{data?.month} </span>
           {data?.availability}
         </div>
-        <div className="flex flex-row items-center gap-1">
-          <div className="font-semibold">$ {data?.price}</div>
+        <div className={style.listingCard__priceContainer}>
+          <div className={style.listingCard__price}>$ {data?.price}</div>
 
-          <div className="font-light">night</div>
+          <div className={style.listingCard__night}>night</div>
         </div>
       </div>
     </div>
