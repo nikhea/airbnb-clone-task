@@ -24,14 +24,15 @@ const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
             {data?.location.state}, {data.location.country}
           </div>
           <div className="flex items-center justify-between">
-            <AiFillStar size={18} className="mr-2" /> {data?.avarageRating}
+            <AiFillStar size={18} className="mr-2" /> {data?.averageRating}
           </div>
         </div>
         <div className="font-light text-neutral-500">
           Hosted by <span className="capitalize">{data?.hostName}</span>
         </div>
         <div className="font-light text-neutral-500">
-          <span className="capitalize">{data?.month} </span> {data?.avalibility}
+          <span className="capitalize">{data?.month} </span>{" "}
+          {data?.availability}
         </div>
         <div className="flex flex-row items-center gap-1">
           <div className="font-semibold">$ {data?.price}</div>

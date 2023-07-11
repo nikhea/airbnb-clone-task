@@ -4,7 +4,7 @@
     @apply flex flex-row items-center gap-1;
   }
   &__text {
-    @apply hidden px-1 py-3 text-sm font-semibold transition rounded-full cursor-pointer md:block hover:bg-neutral-100;
+    @apply hidden px-2 py-3 text-sm font-semibold transition rounded-full cursor-pointer md:block hover:bg-neutral-100;
   }
 }
 .toggleContainer {

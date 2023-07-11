@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ListingItem } from "@/types/ListingItem";
-import { ListingData } from "@/data/listingData";
+import { ListingData } from "@/data/listingDataDemo";
 
 export const useListingFilter = (
   category: string | undefined

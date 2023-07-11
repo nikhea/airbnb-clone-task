@@ -2,17 +2,17 @@ import { StaticImageData } from "next/image";
 
 export type ListingItem = {
   id: number;
-  images: string[] | StaticImageData[];
+  images: string | StaticImageData;
   name: string;
   hostName: string;
   location: {
     state: string;
     country: string;
   };
-  avalibility: string;
+  availability: string;
   month: string;
   price: number;
-  avarageRating: number;
+  averageRating: number;
   category: string;
   isFavorite: boolean;
 };
