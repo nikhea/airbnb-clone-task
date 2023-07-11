@@ -3,7 +3,7 @@
 }
 
 .listingCard {
-  @apply col-span-1 cursor-pointer group;
+  @apply col-span-1 cursor-pointer;
   &__Item {
     @apply flex flex-col w-full gap-2;
   }
