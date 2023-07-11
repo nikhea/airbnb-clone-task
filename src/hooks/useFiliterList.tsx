@@ -11,7 +11,7 @@ export const useListingFilter = (
       setFilteredData(ListingData);
     } else {
       const filteredList = ListingData.filter(
-        (item) => item.category === category
+        (item) => item.category === category.toLowerCase()
       );
       setFilteredData(filteredList);
     }

@@ -416,7 +416,7 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Coastal",
+    category: "Castles",
   },
   {
     id: 27,
@@ -432,7 +432,7 @@ export const ListingData: ListingItem[] = [
     price: 600,
     averageRating: 4.6,
     isFavorite: false,
-    category: "Skiing",
+    category: "skiing",
   },
   {
     id: 28,
@@ -464,7 +464,7 @@ export const ListingData: ListingItem[] = [
     price: 500,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Skiing",
+    category: "skiing",
   },
   {
     id: 30,
