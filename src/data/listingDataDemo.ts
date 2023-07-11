@@ -1,6 +1,22 @@
 import { ListingItem } from "@/types/ListingItem";
 import HomeImage from "../../public/images/air.webp";
-import { Image1, Image2 } from "@/components/UI/Images";
+import {
+  Image1,
+  Image2,
+  Image3,
+  Image4,
+  Image5,
+  Image6,
+  Image7,
+  Image8,
+  Image9,
+  Image10,
+  Image11,
+  Image12,
+  Image13,
+  Image14,
+  Image15,
+} from "@/components/UI/Images";
 export const ListingData: ListingItem[] = [
   {
     id: 1,
@@ -52,7 +68,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 4,
-    image: HomeImage,
+    image: Image3,
     name: "Historic townhouse in the heart of the city",
     hostName: "historylover",
     location: {
@@ -68,7 +84,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 5,
-    image: HomeImage,
+    image: Image4,
     name: "Rustic farmhouse surrounded by vineyards",
     hostName: "winelover",
     location: {
@@ -84,7 +100,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 6,
-    image: HomeImage,
+    image: Image5,
     name: "Charming cabin by the lake",
     hostName: "lakelover",
     location: {
@@ -100,7 +116,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 7,
-    image: HomeImage,
+    image: Image6,
     name: "Mountain retreat with panoramic views",
     hostName: "mountainlover",
     location: {
@@ -116,7 +132,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 8,
-    image: HomeImage,
+    image: Image7,
     name: "Seaside bungalow with private beach",
     hostName: "beachlover",
     location: {
@@ -132,7 +148,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 9,
-    image: HomeImage,
+    image: Image8,
     name: "Eco-friendly treehouse in the rainforest",
     hostName: "naturelover",
     location: {
@@ -148,7 +164,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 10,
-    image: HomeImage,
+    image: Image9,
     name: "Historic castle overlooking the countryside",
     hostName: "castlelover",
     location: {
@@ -164,7 +180,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 11,
-    image: HomeImage,
+    image: Image10,
     name: "Private island paradise with crystal-clear waters",
     hostName: "islanddreamer",
     location: {
@@ -180,7 +196,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 12,
-    image: HomeImage,
+    image: Image11,
     name: "Ski-in/ski-out chalet in the snowy Camping",
     hostName: "skilover",
     location: {
@@ -196,7 +212,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 13,
-    image: HomeImage,
+    image: Image12,
     name: "Desert oasis with breathtaking views",
     hostName: "desertlover",
     location: {
@@ -212,7 +228,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 14,
-    image: HomeImage,
+    image: Image13,
     name: "Historic barn converted into a cozy retreat",
     hostName: "barnlover",
     location: {
@@ -228,7 +244,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 15,
-    image: HomeImage,
+    image: Image14,
     name: "Luxurious lakeside villa with stunning views",
     hostName: "lakelover",
     location: {
@@ -244,7 +260,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 16,
-    image: HomeImage,
+    image: Image15,
     name: "Cozy cabin in the snowy mountains",
     hostName: "mountainlover",
     location: {
