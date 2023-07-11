@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Airbnb Clone
 
-## Getting Started
+## Submission by [Fortune Imonikhea Ugbodaga]
 
-First, run the development server:
+This project is my submission for the Airbnb Clone task, with a deadline of Wednesday, 12th July, 2023.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Summary
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I have successfully implemented a clone of the Airbnb home page based on the provided design reference. The cloned implementation includes all the required features, such as displaying available homes in a grid view, detailed listing cards, clickable filters, the ability to like and unlike a listing, and optional integration of the "Show map" functionality.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For this project, I closely replicated the design of the Airbnb home page. Here are the key features I implemented:
 
-## Learn More
+- Displayed a grid view of available homes, just like the original Airbnb home page, providing users with a familiar layout.
+- Each listing card includes essential details, such as the listing image(s), name, host, availability dates, cost per night, and average rating.
+- Implemented a list of 15-20 filters for the listings, enabling users to refine their search based on various preferences. Each filter is clickable for easy selection.
+- Users can like and unlike a listing, allowing them to save and manage their favorite listings.
+- The buttons on the navigation bar, filters, and footer are not functional or clickable, as specified in the task requirements.
+- I mocked the necessary data and did not require any API connections for this project.
 
-To learn more about Next.js, take a look at the following resources:
+Optional Extras:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As an additional challenge, I successfully integrated the "Show map" functionality from the Airbnb home page. This feature provides users with a map view of the listings, enhancing the overall user experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+I have hosted the Airbnb Clone project on Netlify. You can access the deployed web app by following this link: [Airbnb Clone - Deployed App](https://zst-task.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## GitHub Repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The code for this project is available in my GitHub repository: [Airbnb Clone - GitHub Repo](https://github.com/nikhea/airbnb-clone-task)
+
+## Reflection
+
+I thoroughly enjoyed working on this project and learned a lot throughout the process. It was challenging to replicate the Airbnb home page's design and functionality, but it provided a great opportunity to improve my frontend development skills.
+
+Thank you for the opportunity to submit this project. I look forward to receiving feedback and further improving my skills.
+
+Best regards,
+Fortune I. Ugbodaga
