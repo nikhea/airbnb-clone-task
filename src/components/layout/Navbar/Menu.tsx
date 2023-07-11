@@ -21,7 +21,7 @@ const UserMenu = () => {
 
         <div onClick={toggleOpen} className={style.toggleContainer}>
           <AiOutlineMenu />
-          <div className={style.__Icon}>
+          <div className={style.toggleContainer__Icon}>
             {/* <Avatar src="" /> */}
             <PersonAvatarIcon />
           </div>
