@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 
 export type ListingItem = {
   id: number;
-  images: string | StaticImageData;
+  image: string | StaticImageData;
   name: string;
   hostName: string;
   location: {

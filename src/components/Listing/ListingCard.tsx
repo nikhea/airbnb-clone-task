@@ -14,7 +14,7 @@ const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
       <div className={style.listingCard__Item}>
         {/* aspect-square */}
         <div className={style.listingCard__ImageContainer}>
-          <Image fill src="/images/air.webp" alt="Listing" />
+          <Image fill src={data.image} alt="Listing" />
           <div className="absolute top-3 right-3">
             <HeartButton itemID={data.id} isFavorite={data.isFavorite} />
           </div>
