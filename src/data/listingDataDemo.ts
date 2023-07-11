@@ -1,5 +1,6 @@
 import { ListingItem } from "@/types/ListingItem";
 import HomeImage from "../../public/images/air.webp";
+
 export const ListingData: ListingItem[] = [
   {
     id: 1,
@@ -15,7 +16,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     averageRating: 4.5,
     isFavorite: false,
-    category: "beach",
+    category: "Beach",
   },
   {
     id: 2,
@@ -31,7 +32,7 @@ export const ListingData: ListingItem[] = [
     price: 350,
     averageRating: 4.8,
     isFavorite: false,
-    category: "city",
+    category: "Skiing",
   },
   {
     id: 3,
@@ -47,7 +48,7 @@ export const ListingData: ListingItem[] = [
     price: 150,
     averageRating: 4.2,
     isFavorite: false,
-    category: "countryside",
+    category: "Countryside",
   },
   {
     id: 4,
@@ -63,7 +64,7 @@ export const ListingData: ListingItem[] = [
     price: 180,
     averageRating: 4.6,
     isFavorite: false,
-    category: "city",
+    category: "Windmills",
   },
   {
     id: 5,
@@ -79,7 +80,7 @@ export const ListingData: ListingItem[] = [
     price: 250,
     averageRating: 4.7,
     isFavorite: false,
-    category: "countryside",
+    category: "Countryside",
   },
   {
     id: 6,
@@ -95,7 +96,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.8,
     isFavorite: false,
-    category: "lake",
+    category: "Lake",
   },
   {
     id: 7,
@@ -111,7 +112,7 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.9,
     isFavorite: false,
-    category: "mountains",
+    category: "Modern",
   },
   {
     id: 8,
@@ -127,7 +128,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.5,
     isFavorite: false,
-    category: "beach",
+    category: "Islands",
   },
   {
     id: 9,
@@ -143,7 +144,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     averageRating: 4.7,
     isFavorite: false,
-    category: "nature",
+    category: "Lake",
   },
   {
     id: 10,
@@ -159,7 +160,7 @@ export const ListingData: ListingItem[] = [
     price: 500,
     averageRating: 4.8,
     isFavorite: false,
-    category: "countryside",
+    category: "Castles",
   },
   {
     id: 11,
@@ -175,12 +176,12 @@ export const ListingData: ListingItem[] = [
     price: 1000,
     averageRating: 4.9,
     isFavorite: false,
-    category: "islands",
+    category: "Islands",
   },
   {
     id: 12,
     image: HomeImage,
-    name: "Ski-in/ski-out chalet in the snowy mountains",
+    name: "Ski-in/ski-out chalet in the snowy Camping",
     hostName: "skilover",
     location: {
       state: "whistler",
@@ -191,7 +192,7 @@ export const ListingData: ListingItem[] = [
     price: 600,
     averageRating: 4.7,
     isFavorite: false,
-    category: "mountains",
+    category: "Caves",
   },
   {
     id: 13,
@@ -207,7 +208,7 @@ export const ListingData: ListingItem[] = [
     price: 250,
     averageRating: 4.6,
     isFavorite: false,
-    category: "desert",
+    category: "Desert",
   },
   {
     id: 14,
@@ -223,7 +224,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.5,
     isFavorite: false,
-    category: "barns",
+    category: "Barns",
   },
   {
     id: 15,
@@ -239,7 +240,7 @@ export const ListingData: ListingItem[] = [
     price: 800,
     averageRating: 4.9,
     isFavorite: false,
-    category: "lake",
+    category: "Lake",
   },
   {
     id: 16,
@@ -255,7 +256,7 @@ export const ListingData: ListingItem[] = [
     price: 350,
     averageRating: 4.7,
     isFavorite: false,
-    category: "mountains",
+    category: "Camping",
   },
   {
     id: 17,
@@ -271,7 +272,7 @@ export const ListingData: ListingItem[] = [
     price: 600,
     averageRating: 4.8,
     isFavorite: false,
-    category: "beach",
+    category: "Beach",
   },
   {
     id: 18,
@@ -287,7 +288,7 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.6,
     isFavorite: false,
-    category: "nature",
+    category: "Nature",
   },
   {
     id: 19,
@@ -303,7 +304,7 @@ export const ListingData: ListingItem[] = [
     price: 500,
     averageRating: 4.8,
     isFavorite: false,
-    category: "mountains",
+    category: "Camping",
   },
   {
     id: 20,
@@ -319,7 +320,7 @@ export const ListingData: ListingItem[] = [
     price: 800,
     averageRating: 4.9,
     isFavorite: false,
-    category: "beach",
+    category: "Beach",
   },
   {
     id: 21,
@@ -335,7 +336,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.7,
     isFavorite: false,
-    category: "nature",
+    category: "Nature",
   },
   {
     id: 22,
@@ -351,7 +352,7 @@ export const ListingData: ListingItem[] = [
     price: 700,
     averageRating: 4.6,
     isFavorite: false,
-    category: "castles",
+    category: "Castles",
   },
   {
     id: 23,
@@ -367,7 +368,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     averageRating: 4.5,
     isFavorite: false,
-    category: "camping",
+    category: "Camping",
   },
   {
     id: 24,
@@ -383,7 +384,7 @@ export const ListingData: ListingItem[] = [
     price: 900,
     averageRating: 4.9,
     isFavorite: false,
-    category: "arctic",
+    category: "Arctic",
   },
   {
     id: 25,
@@ -399,7 +400,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.7,
     isFavorite: false,
-    category: "forests",
+    category: "Forests",
   },
   {
     id: 26,
@@ -415,13 +416,13 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.8,
     isFavorite: false,
-    category: "coastal",
+    category: "Coastal",
   },
   {
     id: 27,
     image: HomeImage,
     name: "Vibrant city apartment in the heart of Tokyo",
-    hostName: "cityexplorer",
+    hostName: "Skiingexplorer",
     location: {
       state: "tokyo",
       country: "japan",
@@ -431,7 +432,7 @@ export const ListingData: ListingItem[] = [
     price: 600,
     averageRating: 4.6,
     isFavorite: false,
-    category: "city",
+    category: "Skiing",
   },
   {
     id: 28,
@@ -447,7 +448,7 @@ export const ListingData: ListingItem[] = [
     price: 700,
     averageRating: 4.9,
     isFavorite: false,
-    category: "beach",
+    category: "pool",
   },
   {
     id: 29,
@@ -463,7 +464,7 @@ export const ListingData: ListingItem[] = [
     price: 500,
     averageRating: 4.7,
     isFavorite: false,
-    category: "city",
+    category: "Skiing",
   },
   {
     id: 30,
@@ -479,6 +480,6 @@ export const ListingData: ListingItem[] = [
     price: 800,
     averageRating: 4.9,
     isFavorite: false,
-    category: "beach",
+    category: "lux",
   },
 ];
