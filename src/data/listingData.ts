@@ -34,7 +34,7 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 3,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -50,7 +50,7 @@ export const ListingData: ListingItem[] = [
     category: "modern",
   },
   {
-    id: 2,
+    id: 4,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -66,7 +66,7 @@ export const ListingData: ListingItem[] = [
     category: "countryside",
   },
   {
-    id: 2,
+    id: 5,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -82,7 +82,7 @@ export const ListingData: ListingItem[] = [
     category: "pools",
   },
   {
-    id: 2,
+    id: 6,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -98,7 +98,7 @@ export const ListingData: ListingItem[] = [
     category: "islands",
   },
   {
-    id: 2,
+    id: 7,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -114,7 +114,7 @@ export const ListingData: ListingItem[] = [
     category: "lake",
   },
   {
-    id: 2,
+    id: 8,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -130,7 +130,7 @@ export const ListingData: ListingItem[] = [
     category: "skiing",
   },
   {
-    id: 2,
+    id: 9,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -146,7 +146,7 @@ export const ListingData: ListingItem[] = [
     category: "castles",
   },
   {
-    id: 2,
+    id: 10,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -162,7 +162,7 @@ export const ListingData: ListingItem[] = [
     category: "caves",
   },
   {
-    id: 2,
+    id: 11,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -178,7 +178,7 @@ export const ListingData: ListingItem[] = [
     category: "camping",
   },
   {
-    id: 2,
+    id: 12,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -194,7 +194,7 @@ export const ListingData: ListingItem[] = [
     category: "arctic",
   },
   {
-    id: 2,
+    id: 13,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -210,7 +210,7 @@ export const ListingData: ListingItem[] = [
     category: "desert",
   },
   {
-    id: 2,
+    id: 14,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -226,7 +226,7 @@ export const ListingData: ListingItem[] = [
     category: "barns",
   },
   {
-    id: 2,
+    id: 15,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -242,7 +242,7 @@ export const ListingData: ListingItem[] = [
     category: "lux",
   },
   {
-    id: 2,
+    id: 16,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -258,7 +258,7 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 17,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -274,7 +274,7 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 18,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -290,7 +290,7 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 19,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -306,7 +306,7 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 20,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -322,7 +322,7 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 21,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",
@@ -338,7 +338,55 @@ export const ListingData: ListingItem[] = [
     category: "windmills",
   },
   {
-    id: 2,
+    id: 22,
+    images: [],
+    name: "5 bedroom duplex in ajah",
+    hostName: "imonikhea",
+    location: {
+      state: "lagos",
+      country: "nigeria",
+    },
+    avalibility: "10-15",
+    month: "oct",
+    price: 200,
+    avarageRating: 4.5,
+    isFavorite: false,
+    category: "windmills",
+  },
+  {
+    id: 23,
+    images: [],
+    name: "5 bedroom duplex in ajah",
+    hostName: "imonikhea",
+    location: {
+      state: "lagos",
+      country: "nigeria",
+    },
+    avalibility: "10-15",
+    month: "oct",
+    price: 200,
+    avarageRating: 4.5,
+    isFavorite: false,
+    category: "windmills",
+  },
+  {
+    id: 24,
+    images: [],
+    name: "5 bedroom duplex in ajah",
+    hostName: "imonikhea",
+    location: {
+      state: "lagos",
+      country: "nigeria",
+    },
+    avalibility: "10-15",
+    month: "oct",
+    price: 200,
+    avarageRating: 4.5,
+    isFavorite: false,
+    category: "windmills",
+  },
+  {
+    id: 25,
     images: [],
     name: "5 bedroom duplex in ajah",
     hostName: "imonikhea",

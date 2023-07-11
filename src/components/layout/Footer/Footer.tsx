@@ -10,34 +10,33 @@ const Footer = () => {
       <div className={style.footer__Container}>
         <Container>
           <div className={style.footer__Items}>
-            <div className="flex flex-col  lg:flex-row lg:items-center gap-y-1 lg:gap-y-0 lg:gap-x-2 text-[#222]">
-              <h2 className="capitalize">&copy; 2023 Airbnb, inc.</h2>
-              <ul className="flex flex-row items-center text-sm font-normal capitalize gap-x-2 ">
-                <li className="flex flex-row items-center">terms</li>
-                <li className="flex flex-row items-center">
-                  <span className="mr-1">.</span> sitmap
+            <div className={style.footer__ItemsLeft}>
+              <h2>&copy; 2023 Airbnb, inc.</h2>
+              <ul>
+                <li>terms</li>
+                <li>
+                  <span>.</span> sitmap
                 </li>
-                <li className="flex flex-row items-center">
-                  <span className="mr-1">.</span> privacy
+                <li>
+                  <span>.</span> privacy
                 </li>
-                <li className="flex flex-row items-center">
-                  <span className="mr-1">.</span> your privacy choices
+                <li>
+                  <span>.</span> your privacy choices
                   <PrivacyChoicesIcon />
                 </li>
                 <li className="hidden lg:flex">
-                  <span className="mr-1">.</span> destinations
+                  <span>.</span> destinations
                 </li>
               </ul>
             </div>
-            <div>
-              <ul className="flex flex-row items-center text-sm font-semibold capitalize gap-x-2 text-[#222] ">
-                <li className="flex flex-row items-center">
+            <div className={style.footer__ItemsRight}>
+              <ul>
+                <li className="">
                   <TbWorld size={20} className="mr-2" /> english (US)
                 </li>
                 <li>$ USD</li>
-                <li className="flex-row items-center hidden lg:flex">
-                  {" "}
-                  support & resources{" "}
+                <li className="lg:flex">
+                  support & resources
                   <MdKeyboardArrowUp size={20} className="ml-2" />
                 </li>
               </ul>

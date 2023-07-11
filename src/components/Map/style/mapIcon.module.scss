@@ -1,0 +1,12 @@
+.mapIcon {
+  @apply fixed cursor-pointer z-[9999] left-[45%] p-3 bottom-32 lg:bottom-24 flex items-center justify-center;
+  div {
+    @apply flex items-center p-3 px-5 text-white bg-[#222222] rounded-3xl;
+    h1 {
+      @apply flex items-center;
+    }
+    span {
+      @apply hidden mr-1 md:flex;
+    }
+  }
+}
