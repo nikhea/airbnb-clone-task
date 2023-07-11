@@ -12,10 +12,10 @@
     @apply relative w-full overflow-hidden h-[300px]  rounded-xl;
     img {
       @apply object-cover w-full h-full transition group-hover:scale-110;
-      div {
-        @apply absolute top-3 right-3;
-      }
     }
+  }
+  &__heartIcon {
+    @apply absolute top-3 right-3;
   }
   &__name {
     @apply my-1 text-xs font-semibold capitalize;
