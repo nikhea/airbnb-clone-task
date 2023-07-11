@@ -16,7 +16,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     averageRating: 4.5,
     isFavorite: false,
-    category: "Beach",
+    category: "beach",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ export const ListingData: ListingItem[] = [
     price: 350,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Skiing",
+    category: "skiing",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const ListingData: ListingItem[] = [
     price: 150,
     averageRating: 4.2,
     isFavorite: false,
-    category: "Countryside",
+    category: "countryside",
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const ListingData: ListingItem[] = [
     price: 180,
     averageRating: 4.6,
     isFavorite: false,
-    category: "Windmills",
+    category: "windmills",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const ListingData: ListingItem[] = [
     price: 250,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Countryside",
+    category: "countryside",
   },
   {
     id: 6,
@@ -96,7 +96,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Lake",
+    category: "lake",
   },
   {
     id: 7,
@@ -112,7 +112,7 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.9,
     isFavorite: false,
-    category: "Modern",
+    category: "modern",
   },
   {
     id: 8,
@@ -128,7 +128,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.5,
     isFavorite: false,
-    category: "Islands",
+    category: "islands",
   },
   {
     id: 9,
@@ -144,7 +144,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Lake",
+    category: "lake",
   },
   {
     id: 10,
@@ -160,7 +160,7 @@ export const ListingData: ListingItem[] = [
     price: 500,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Castles",
+    category: "castles",
   },
   {
     id: 11,
@@ -176,7 +176,7 @@ export const ListingData: ListingItem[] = [
     price: 1000,
     averageRating: 4.9,
     isFavorite: false,
-    category: "Islands",
+    category: "islands",
   },
   {
     id: 12,
@@ -192,7 +192,7 @@ export const ListingData: ListingItem[] = [
     price: 600,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Caves",
+    category: "caves",
   },
   {
     id: 13,
@@ -208,7 +208,7 @@ export const ListingData: ListingItem[] = [
     price: 250,
     averageRating: 4.6,
     isFavorite: false,
-    category: "Desert",
+    category: "desert",
   },
   {
     id: 14,
@@ -224,7 +224,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.5,
     isFavorite: false,
-    category: "Barns",
+    category: "barns",
   },
   {
     id: 15,
@@ -240,7 +240,7 @@ export const ListingData: ListingItem[] = [
     price: 800,
     averageRating: 4.9,
     isFavorite: false,
-    category: "Lake",
+    category: "lake",
   },
   {
     id: 16,
@@ -256,7 +256,7 @@ export const ListingData: ListingItem[] = [
     price: 350,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Camping",
+    category: "camping",
   },
   {
     id: 17,
@@ -272,7 +272,7 @@ export const ListingData: ListingItem[] = [
     price: 600,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Beach",
+    category: "beach",
   },
   {
     id: 18,
@@ -288,7 +288,7 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.6,
     isFavorite: false,
-    category: "Nature",
+    category: "pools",
   },
   {
     id: 19,
@@ -304,7 +304,7 @@ export const ListingData: ListingItem[] = [
     price: 500,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Camping",
+    category: "camping",
   },
   {
     id: 20,
@@ -320,7 +320,7 @@ export const ListingData: ListingItem[] = [
     price: 800,
     averageRating: 4.9,
     isFavorite: false,
-    category: "Beach",
+    category: "beach",
   },
   {
     id: 21,
@@ -336,7 +336,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Nature",
+    category: "lux",
   },
   {
     id: 22,
@@ -352,7 +352,7 @@ export const ListingData: ListingItem[] = [
     price: 700,
     averageRating: 4.6,
     isFavorite: false,
-    category: "Castles",
+    category: "castles",
   },
   {
     id: 23,
@@ -368,7 +368,7 @@ export const ListingData: ListingItem[] = [
     price: 200,
     averageRating: 4.5,
     isFavorite: false,
-    category: "Camping",
+    category: "camping",
   },
   {
     id: 24,
@@ -384,7 +384,7 @@ export const ListingData: ListingItem[] = [
     price: 900,
     averageRating: 4.9,
     isFavorite: false,
-    category: "Arctic",
+    category: "arctic",
   },
   {
     id: 25,
@@ -400,7 +400,7 @@ export const ListingData: ListingItem[] = [
     price: 300,
     averageRating: 4.7,
     isFavorite: false,
-    category: "Forests",
+    category: "castles",
   },
   {
     id: 26,
@@ -416,7 +416,7 @@ export const ListingData: ListingItem[] = [
     price: 400,
     averageRating: 4.8,
     isFavorite: false,
-    category: "Castles",
+    category: "castles",
   },
   {
     id: 27,
