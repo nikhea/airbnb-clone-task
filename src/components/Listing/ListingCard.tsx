@@ -19,6 +19,7 @@ const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
             <HeartButton itemID={data.id} isFavorite={data.isFavorite} />
           </div>
         </div>
+        <div className="my-1 text-lg font-semibold capitalize">{data.name}</div>
         <div className="flex items-center justify-between">
           <div className="text-lg font-semibold capitalize">
             {data?.location.state}, {data.location.country}

@@ -5,7 +5,8 @@
 .listingCard {
   @apply col-span-1 cursor-pointer;
   &__Item {
-    @apply flex flex-col w-full gap-2;
+    @apply flex flex-col w-full;
+    // gap-2
   }
   &__ImageContainer {
     @apply relative w-full overflow-hidden h-[300px]  rounded-xl;
