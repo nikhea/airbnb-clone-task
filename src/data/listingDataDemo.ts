@@ -16,6 +16,21 @@ import {
   Image13,
   Image14,
   Image15,
+  Image16,
+  Image17,
+  Image18,
+  Image19,
+  Image20,
+  Image21,
+  Image22,
+  Image23,
+  Image24,
+  Image25,
+  Image26,
+  Image27,
+  Image28,
+  Image29,
+  Image30,
 } from "@/components/UI/Images";
 export const ListingData: ListingItem[] = [
   {
@@ -276,7 +291,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 17,
-    image: HomeImage,
+    image: Image16,
     name: "Secluded beachfront villa with private pool",
     hostName: "beachlover",
     location: {
@@ -292,7 +307,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 18,
-    image: HomeImage,
+    image: Image17,
     name: "Treehouse retreat in the lush rainforest",
     hostName: "naturelover",
     location: {
@@ -308,7 +323,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 19,
-    image: HomeImage,
+    image: Image18,
     name: "Rustic cottage with stunning mountain views",
     hostName: "mountainlover",
     location: {
@@ -324,7 +339,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 20,
-    image: HomeImage,
+    image: Image19,
     name: "Exquisite beach house with oceanfront views",
     hostName: "beachlover",
     location: {
@@ -340,7 +355,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 21,
-    image: HomeImage,
+    image: Image20,
     name: "Jungle lodge in the heart of the Amazon",
     hostName: "naturelover",
     location: {
@@ -356,7 +371,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 22,
-    image: HomeImage,
+    image: Image21,
     name: "Historic castle overlooking the countryside",
     hostName: "castlelover",
     location: {
@@ -372,7 +387,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 23,
-    image: HomeImage,
+    image: Image22,
     name: "Adventure camping in the wilderness",
     hostName: "camper",
     location: {
@@ -388,7 +403,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 24,
-    image: HomeImage,
+    image: Image23,
     name: "Arctic retreat under the Northern Lights",
     hostName: "polartraveler",
     location: {
@@ -404,7 +419,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 25,
-    image: HomeImage,
+    image: Image24,
     name: "Secluded treehouse in the enchanted forest",
     hostName: "naturelover",
     location: {
@@ -420,7 +435,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 26,
-    image: HomeImage,
+    image: Image25,
     name: "Historic lighthouse overlooking the ocean",
     hostName: "oceanlover",
     location: {
@@ -436,7 +451,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 27,
-    image: HomeImage,
+    image: Image26,
     name: "Vibrant city apartment in the heart of Tokyo",
     hostName: "Skiingexplorer",
     location: {
@@ -452,7 +467,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 28,
-    image: HomeImage,
+    image: Image27,
     name: "Idyllic beachfront cottage in Malibu",
     hostName: "beachlover",
     location: {
@@ -468,7 +483,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 29,
-    image: HomeImage,
+    image: Image28,
     name: "Traditional ryokan experience in Kyoto",
     hostName: "japanlover",
     location: {
@@ -484,7 +499,7 @@ export const ListingData: ListingItem[] = [
   },
   {
     id: 30,
-    image: HomeImage,
+    image: Image29,
     name: "Luxurious villa with private pool in Bali",
     hostName: "baliexperience",
     location: {
