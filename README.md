@@ -1,6 +1,6 @@
 # Airbnb Clone
 
-## Submission by [Fortune Imonikhea Ugbodaga]
+## Submission by Fortune Imonikhea Ugbodaga
 
 This project is my submission for the Airbnb Clone task, with a deadline of Wednesday, 12th July, 2023.
 
