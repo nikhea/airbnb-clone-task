@@ -10,7 +10,7 @@ interface ListingCardProps {
 
 const ListingCard: React.FC<ListingCardProps> = ({ data }) => {
   return (
-    <div className={style.listingCard}>
+    <div className={`${style.listingCard} group`}>
       <div className={style.listingCard__Item}>
         {/* aspect-square */}
         <div className={style.listingCard__ImageContainer}>
